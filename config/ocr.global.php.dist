@@ -1,0 +1,33 @@
+<?php
+/**
+ * GSOcr Configuration
+ *
+ * If you have a ./config/autoload/ directory set up for your project, you can
+ * drop this config file in it, remove the .dist of the filename and change
+ * the values as you wish.
+ */
+$settings = array(
+return array(
+    'ocr' => array(
+        /**
+         * OCR Service name - will be resolved by service locator
+         *
+         * @var string
+         * Provided OCR service has to implement the \GSOrc\Service\OcrServiceInterface.
+         */
+//        'service' => 'GSOcrSimple\Service\OcrSimpleService',
+
+        /**
+         * OCR Service configuration - will be injected into OCR service
+         *
+         * @var string
+         * Syntax of provided OCR service configuration depends on used OCR service.
+         * Have a look at the documentation of these service.
+         */
+        'config' => array(
+//            'fonts' => array(
+//                'testFont' => include 'data/font/testFont.php';
+//            ),
+        ),
+    ),
+);
