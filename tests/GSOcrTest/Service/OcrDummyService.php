@@ -51,11 +51,11 @@ class OcrDummyService implements OcrServiceInterface
     /**
      * Recognize text on image
      *
-     * @param Image $image
-     * @param array $options
+     * @param string $image
+     * @param array  $options
      * @return string
      */
-    public function recognize(Image $image, $options)
+    public function recognize($image, $options)
     {
         return '';
     }

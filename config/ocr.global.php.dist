@@ -6,7 +6,6 @@
  * drop this config file in it, remove the .dist of the filename and change
  * the values as you wish.
  */
-$settings = array(
 return array(
     'ocr' => array(
         /**
@@ -15,7 +14,7 @@ return array(
          * @var string
          * Provided OCR service has to implement the \GSOrc\Service\OcrServiceInterface.
          */
-//        'service' => 'GSOcrSimple\Service\OcrSimpleService',
+//        'service' => 'service.ocr.simple',
 
         /**
          * OCR Service configuration - will be injected into OCR service
