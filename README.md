@@ -11,7 +11,7 @@ GSOcr is an OCR API for php providing a common interface for OCR services and a 
 [![License](https://poser.pugx.org/gs/ocr/license.png)](https://packagist.org/packages/gs/ocr)
 
 Known implementations of this api are:
-* [GSOcrSimple](https://github.com/GordonSchmidt/GSOcrSimple) - Simple OCR with PHP
+* [GSSimpleOcr](https://github.com/GordonSchmidt/GSSimpleOcr) - Simple OCR with PHP
 
 Requirements
 ------------
