@@ -12,7 +12,7 @@
 return array(
     'service_manager' => array(
         'factories' => array(
-            'service.orc' => 'GSOcr\Service\OcrServiceFactory',
+            'service.ocr' => 'GSOcr\Service\OcrServiceFactory',
         ),
     ),
 );
